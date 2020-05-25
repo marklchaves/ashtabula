@@ -17,6 +17,24 @@ This is the recommended and standard WordPress install process. There are many a
 
 See the [demo HTML file](swiper-slider-demo.html).
 
+CSS example to specify the background image for the responsive card in a slide.
+
+```css
+/**
+ * Swiper Slider Plugin Custom Styles
+ */
+
+#my-swiper-slide-1 {
+ background-image: url(mybgimg-1.png);
+}
+#my-swiper-slide-2 {
+ background-image: url(mybgimg-2.png);
+}
+#my-swiper-slide-3 {
+ background-image: url(mybgimg-3.png);
+}
+```
+
 ## Live Demo
 
 Visit the [live deme site](https://caughtmyeyedev.000webhostapp.com/responsive-swiper-demo).
