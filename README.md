@@ -1,6 +1,6 @@
 # Swiper Slider Plugin
 
-This plugin allows the use of the popular Swiper.js library.
+This plugin allows the use of the popular [Swiper.js](https://swiperjs.com/) library.
  
 ## Installation
 
