@@ -24,3 +24,9 @@ See the [demo HTML file](swiper-slider-demo.html).
 ![Desktop](screengrabs/Screenshot_2020-05-25-Responsive-Swiper-Demo-dt-1280w.jpg)
 
 ![Mobile](screengrabs/Screenshot_2020-05-25-Responsive-Swiper-Demo-mob-512w.jpg)
+
+---
+
+### I'll Drink to That ;-)
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D7YARD)
