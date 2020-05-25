@@ -17,6 +17,10 @@ This is the recommended and standard WordPress install process. There are many a
 
 See the [demo HTML file](swiper-slider-demo.html).
 
+## Live Demo
+
+Visit the [live deme site](https://caughtmyeyedev.000webhostapp.com/responsive-swiper-demo).
+
 ---
 
 ## Screengrabs
