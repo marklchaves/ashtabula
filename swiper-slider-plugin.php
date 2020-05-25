@@ -4,14 +4,14 @@
  * Swiper Slider Plugin for WordPress
  *
  * @link              https://www.caughtmyeye.cc
- * @since             1.0.0
+ * @since             0.0.1
  * @package           Swiper_Slider_Plugin
  *
  * @wordpress-plugin
  * Plugin Name:       Swiper Slider Plugin
  * Plugin URI:        https://www.caughtmyeye.cc
  * Description:       Allows Swiper.js to work in WordPress.
- * Version:           1.0.0
+ * Version:           0.0.2
  * Author:            caught my eye
  * Author URI:        https://www.caughtmyeye.cc
  * License:           GPL-2.0+
@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 define( 'SWIPER_SLIDER_PLUGIN_NAME', 'swiper-slider-plugin' );
-define( 'SWIPER_SLIDER_PLUGIN_VERSION', '1.0.0' );
+define( 'SWIPER_SLIDER_PLUGIN_VERSION', '0.0.2' );
 
 /**
  * Enqueue Swiper Stuff

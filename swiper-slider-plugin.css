@@ -23,7 +23,6 @@ swiper-slider-plugin__section {
 }
 
 .swiper-slider-plugin-flex-card__image {
-  background-image: url(https://stripe.com/img/v3/payments/overview/photos/charity_water.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
