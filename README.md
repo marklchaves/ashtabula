@@ -4,18 +4,17 @@ This plugin allows the use of the popular [Swiper.js](https://swiperjs.com/) lib
  
 ## Installation
 
-1. Manually upload the [zip](swiper-slider-plugin.zip) of this repo to /wp-content/plugins/swiper-slider-plugin directory or upload the zip via your wp-admin **Plugins** > **Add New** > **Upload Plugin**.
+1. Manually upload the **contents** of the [zip](swiper-slider-plugin.zip) file of this repo to /wp-content/plugins/ directory or upload the zip via your wp-admin **Plugins** > **Add New** > **Upload Plugin**.
 2. Activate the plugin through the wp-admin **Plugins** page.
 
 That's it!
-
-This is the recommended and standard WordPress install process. There are many advantages of following this approach such as 2-click install, no coding, no need for FTP, and version update notifications.  
 
 ---
 
 ## Usage
 
-See the [demo HTML file](swiper-slider-demo.html).
+1. Use the [demo HTML file](swiper-slider-demo.html) as a starter template. Add this HTML to a HTML or code block/element to your page or post.
+2. To add the images, use the example CSS below as a template. Add the CSS to your **Appearance** > **Customize** > **Additional CSS** or your child theme's `style.css` file.
 
 CSS example to specify the background image for the responsive card in a slide.
 
@@ -34,6 +33,8 @@ CSS example to specify the background image for the responsive card in a slide.
  background-image: url(mybgimg-3.png);
 }
 ```
+
+[How to add custom CSS to WordPress.](https://medium.com/@marklchaves/adding-custom-css-to-your-wordpress-website-how-to-guide-a50b474af36d)
 
 ## Live Demo
 
