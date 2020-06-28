@@ -37,7 +37,7 @@ CSS example to specify the background image for the responsive card in a slide.
 
 ## Live Demo
 
-Visit the [live deme site](https://caughtmyeyedev.000webhostapp.com/responsive-swiper-demo).
+Visit the [live demo site](https://caughtmyeyedev.000webhostapp.com/responsive-swiper-demo).
 
 ---
 
