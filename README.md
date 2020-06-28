@@ -4,9 +4,14 @@
 
 This plugin allows you to use of the popular [Swiper.js](https://swiperjs.com/) library in WordPress. 
 
-## For Showing Response Cards in Slides
+## For Showing Responsive Cards in Slides
 
-This is a minimalist plugin that is for displaying responsive cards in a slide. On a wide screen device, the slide will show a horizontal card (image on the left and text on the right). On a small device, the slide becomes a stacked card with the image on the top and text on the bottom.
+This is a minimalist plugin that is for displaying responsive cards in a slide. 
+
+- On a wide screen device, the slide will show a horizontal card (image on the left and text on the right). 
+- On a small device, the slide becomes a stacked card with the image on the top and text on the bottom.
+
+See the screengrabs below to get a visual.
 
 **Note**: You should be comfortable with HTML and CSS to use this plugin.
  
