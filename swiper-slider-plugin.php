@@ -3,15 +3,15 @@
 /**
  * Swiper Slider Plugin for WordPress
  *
- * @link              https://www.caughtmyeye.cc
+ * @link              https://github.com/marklchaves/swiper-slider-plugin
  * @since             0.0.1
  * @package           Swiper_Slider_Plugin
  *
  * @wordpress-plugin
  * Plugin Name:       Swiper Slider Plugin
- * Plugin URI:        https://www.caughtmyeye.cc
+ * Plugin URI:        https://github.com/marklchaves/swiper-slider-plugin
  * Description:       Allows Swiper.js to work in WordPress.
- * Version:           0.0.2
+ * Version:           0.0.3
  * Author:            caught my eye
  * Author URI:        https://www.caughtmyeye.cc
  * License:           GPL-2.0+
@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 define( 'SWIPER_SLIDER_PLUGIN_NAME', 'swiper-slider-plugin' );
-define( 'SWIPER_SLIDER_PLUGIN_VERSION', '0.0.2' );
+define( 'SWIPER_SLIDER_PLUGIN_VERSION', '0.0.3' );
 
 /**
  * Enqueue Swiper Stuff
@@ -33,7 +33,7 @@ define( 'SWIPER_SLIDER_PLUGIN_VERSION', '0.0.2' );
 
 function enqueue_swiper_styles()
 {
-    wp_register_style( 'swiper', 'https://unpkg.com/swiper/css/swiper.min.css', array(), '5.4.1', 'all' );
+    wp_register_style( 'swiper', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), '6.0.0', 'all' );
  
     wp_enqueue_style( 'swiper' );
 
@@ -44,7 +44,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_swiper_styles' );
 function enqueue_swiper_javascript()
 {	
 	// Add to footer section.
-    wp_register_script( 'swiper', 'https://unpkg.com/swiper/js/swiper.min.js', array(), '5.4.1', true );
+    wp_register_script( 'swiper', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), '6.0.0', true );
  
     wp_enqueue_script( 'swiper' );
 
