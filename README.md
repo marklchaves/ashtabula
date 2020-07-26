@@ -1,6 +1,6 @@
-# Swiper Slider Plugin
+# Ashtabula - A Swiper Slider Plugin for WordPress
 
-## Use Swiper.js in WordPress
+## Allows for the Use of Swiper.js in WordPress
 
 This plugin allows you to use of the popular [Swiper.js](https://swiperjs.com/) library in WordPress. 
 
@@ -8,7 +8,7 @@ This plugin allows you to use of the popular [Swiper.js](https://swiperjs.com/) 
 
 This is a minimalist plugin that is for displaying responsive cards in a slide. 
 
-- On a wide screen device, the slide will show a horizontal card (image on the left and text on the right). 
+- On a large screen device, the slide will show a horizontal card (image on the left and text on the right). 
 - On a small device, the slide becomes a stacked card with the image on the top and text on the bottom.
 
 See the screengrabs below to get a visual.
@@ -33,7 +33,7 @@ CSS example to specify the background image for the responsive card in a slide.
 
 ```css
 /**
- * Swiper Slider Plugin Custom Styles
+ * Ashtabula - Swiper Slider Plugin Custom Styles
  */
 
 #my-swiper-slide-1 {
