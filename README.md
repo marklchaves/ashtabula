@@ -63,6 +63,16 @@ Visit the [live demo site](https://caughtmyeyedev.000webhostapp.com/responsive-s
 
 ---
 
+## Release Notes
+
+### 1.0.0
+
+- Now using a local copy of the Swiper 6.1.1 JS and CSS libraries.
+- Changed plugin directory structure to follow [WordPress best practices](https://developer.wordpress.org/plugins/plugin-basics/best-practices/).
+
+
+---
+
 ### I'll Drink to That ;-)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D7YARD)
