@@ -5,7 +5,7 @@
  *
  * @link              https://github.com/marklchaves/ashtabula
  * @since             0.0.1
- * @package           Swiper_Slider_Plugin
+ * @package           Ashtabula_Swiper_Slider_Plugin
  *
  * @wordpress-plugin
  * Plugin Name:       Ashtabula
@@ -24,32 +24,32 @@ if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
-define( 'SWIPER_SLIDER_PLUGIN_NAME', 'ashtabula' );
-define( 'SWIPER_SLIDER_PLUGIN_VERSION', '1.0.0' );
+define( 'ASHTABULA_PLUGIN_NAME', 'ashtabula' );
+define( 'ASHTABULA_PLUGIN_VERSION', '1.0.0' );
 
 /**
  * Enqueue Swiper Stuff
  */
 
-function enqueue_swiper_styles()
+function enqueue_ashtabula_styles()
 {
-    wp_register_style( 'swiper', plugin_dir_url( __FILE__ ) . 'includes/css/swiper-bundle.min.css', array(), '6.1.1', 'all' );
+    wp_register_style( ASHTABULA_PLUGIN_NAME . '-swiper', plugin_dir_url( __FILE__ ) . 'includes/css/swiper-bundle.min.css', array(), '6.1.1', 'all' );
  
-    wp_enqueue_style( 'swiper' );
+    wp_enqueue_style( ASHTABULA_PLUGIN_NAME . '-swiper');
 
-    wp_enqueue_style( SWIPER_SLIDER_PLUGIN_NAME . '-main', plugin_dir_url( __FILE__ ) . 'public/css/' . SWIPER_SLIDER_PLUGIN_NAME . '.css', array(), SWIPER_SLIDER_PLUGIN_VERSION, 'all' );
+    wp_enqueue_style( ASHTABULA_PLUGIN_NAME . '-plugin', plugin_dir_url( __FILE__ ) . 'public/css/' . ASHTABULA_PLUGIN_NAME . '.css', array(), ASHTABULA_PLUGIN_VERSION, 'all' );
 }
-add_action( 'wp_enqueue_scripts', 'enqueue_swiper_styles' );
+add_action( 'wp_enqueue_scripts', 'enqueue_ashtabula_styles' );
 
-function enqueue_swiper_javascript()
+function enqueue_ashtabula_javascript()
 {	
 	// Add to footer section.
-    wp_register_script( 'swiper', plugin_dir_url( __FILE__ ) . 'includes/js/swiper-bundle.min.js', array(), '6.1.1', true );
+    wp_register_script( ASHTABULA_PLUGIN_NAME . '-swiper', plugin_dir_url( __FILE__ ) . 'includes/js/swiper-bundle.min.js', array(), '6.1.1', true );
  
-    wp_enqueue_script( 'swiper' );
+    wp_enqueue_script( ASHTABULA_PLUGIN_NAME . '-swiper' );
 
-    wp_register_script( SWIPER_SLIDER_PLUGIN_NAME, plugin_dir_url( __FILE__ ) . 'public/js/' . SWIPER_SLIDER_PLUGIN_NAME . '.js', '', SWIPER_SLIDER_PLUGIN_VERSION, true ); // Put in the footer ~mlc
+    wp_register_script( ASHTABULA_PLUGIN_NAME, plugin_dir_url( __FILE__ ) . 'public/js/' . ASHTABULA_PLUGIN_NAME . '.js', '', ASHTABULA_PLUGIN_VERSION, true ); // Put in the footer ~mlc
 
-    wp_enqueue_script( SWIPER_SLIDER_PLUGIN_NAME );
+    wp_enqueue_script( ASHTABULA_PLUGIN_NAME );
 }
-add_action( 'wp_enqueue_scripts', 'enqueue_swiper_javascript' );
+add_action( 'wp_enqueue_scripts', 'enqueue_ashtabula_javascript' );
