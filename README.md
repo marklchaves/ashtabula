@@ -26,7 +26,7 @@ That's it!
 
 ## Usage
 
-1. Use the [demo HTML file](swiper-slider-demo.html) as a starter template. Add this HTML to a HTML or code block/element to your page or post.
+1. Use the [demo HTML file](ashtabula-demo.html) as a starter template. Add this HTML to a HTML or code block/element to your page or post.
 2. To add the images, use the example CSS below as a template. Add the CSS to your **Appearance** > **Customize** > **Additional CSS** or your child theme's `style.css` file.
 
 CSS example to specify the background image for the responsive card in a slide.
