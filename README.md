@@ -17,7 +17,7 @@ See the screengrabs below to get a visual.
  
 ## Installation
 
-1. Manually upload the **contents** of the [zip](swiper-slider-plugin.zip) file of this repo to /wp-content/plugins/ directory or upload the zip via your wp-admin **Plugins** > **Add New** > **Upload Plugin**.
+1. Manually upload the **contents** of the [zip](ashtabula.zip) file of this repo to /wp-content/plugins/ directory or upload the zip via your wp-admin **Plugins** > **Add New** > **Upload Plugin**.
 2. Activate the plugin through the wp-admin **Plugins** page.
 
 That's it!
