@@ -1,5 +1,9 @@
 # Ashtabula - A Swiper Slider Plugin for WordPress
 
+The official plugin is now available on WordPress.org.
+
+[https://wordpress.org/plugins/ashtabula/](https://wordpress.org/plugins/ashtabula/)
+
 ## Allows for the Use of Swiper.js in WordPress
 
 This plugin allows you to use of the popular [Swiper.js](https://swiperjs.com/) library in WordPress. 
