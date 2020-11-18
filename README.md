@@ -55,7 +55,7 @@ CSS example to specify the background image for the responsive card in a slide.
 
 ## Live Demo
 
-~~Visit the live demo site.~~ The demo site is moving. Please stay tuned.
+[Visit the live demo site.](https://streetphotography.blog/ashtabula-swiper-slider/)
 
 ---
 
