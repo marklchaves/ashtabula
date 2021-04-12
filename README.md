@@ -53,6 +53,11 @@ CSS example to specify the background image for the responsive card in a slide.
 
 [How to add custom CSS to WordPress.](https://medium.com/@marklchaves/adding-custom-css-to-your-wordpress-website-how-to-guide-a50b474af36d)
 
+## Preview
+
+<video controls autoplay loop src="screengrabs/ashtabula-preview-video.mp4" width="640">
+</video>
+
 ## Live Demo
 
 [Visit the live demo site.](https://streetphotography.blog/ashtabula-swiper-slider/)
